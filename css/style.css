@@ -2719,3 +2719,16 @@ textarea.form-control {
   justify-content: center;
   border: 2px solid #fff;
 }
+
+/* Mobile specific touch optimizations */
+@media (max-width: 480px) {
+  .floating-wa { width: 50px; height: 50px; bottom: 20px; right: 20px; }
+  .floating-wa img { width: 28px; height: 28px; }
+  .btn, .filter-btn { min-height: 48px; padding: 12px 20px; font-size: 1rem; width: 100%; display: flex; justify-content: center; }
+  .car-grid, .testimonial-slider, .services-grid, .branches-grid { grid-template-columns: 1fr !important; }
+  .navbar-logo { width: 40px; height: 40px; }
+  .hero-title { font-size: 2.2rem !important; }
+  .section-title { font-size: 1.8rem; }
+  .container { padding: 0 15px; }
+}
+
