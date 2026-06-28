@@ -2732,3 +2732,15 @@ textarea.form-control {
   .container { padding: 0 15px; }
 }
 
+
+/* Critical Mobile Overflow Fixes */
+html, body { overflow-x: hidden !important; width: 100%; position: relative; }
+* { max-width: 100%; }
+@media (max-width: 768px) {
+  .hero-badge { flex-direction: column; text-align: center; padding: 10px; font-size: 0.9rem; }
+  .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .hero-stat-divider { display: none; }
+  .car-grid, .testimonial-slider, .services-grid, .branches-grid { grid-template-columns: 1fr !important; }
+  .hero-title { font-size: 2rem !important; }
+}
+
